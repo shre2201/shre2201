@@ -102,10 +102,10 @@ def build_svg():
         [
             '  <text class="name" x="480" y="86" fill="url(#name)" font-size="46" text-anchor="middle">SHRESHTHA</text>',
             '  <text x="480" y="122" fill="#a7b4c8" font-family="\'Courier New\', Courier, monospace" font-size="15" text-anchor="middle">',
-            "    AI/ML enthusiast · learning in public · building with care",
+            "    AI/ML enthusiast · RAG systems · AI Developer",
             "  </text>",
             '  <text x="480" y="154" fill="#64748b" font-family="\'Courier New\', Courier, monospace" font-size="12" text-anchor="middle">',
-            "    calm systems, clean interfaces, thoughtful experiments",
+            "    Even AI can't predict me",
             "  </text>",
             "</svg>",
         ]

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/burn-banner.svg" alt="Animated burn banner" width="100%"/>
+<img src="assets/aesthetic-banner.svg" alt="Animated aesthetic banner" width="100%"/>
 
 </div>
 
@@ -68,13 +68,13 @@ home for projects, experiments, notes, and the things I am learning.
 <div align="center">
 
 <a href="https://github.com/shre2201">
-  <img src="https://streak-stats.demolab.com/?user=your-github-username&theme=transparent&hide_border=true&ring=22d3ee&fire=fb7185&currStreakLabel=67e8f9&sideLabels=cbd5e1&dates=94a3b8" alt="GitHub streak stats" />
+  <img src="https://streak-stats.demolab.com/?user=shre2201&theme=transparent&hide_border=true&ring=9db4ff&fire=f0b7c8&currStreakLabel=c7d2fe&sideLabels=cbd5e1&dates=94a3b8" alt="GitHub streak stats" />
 </a>
 
 <br/>
 
-<a href="https://github.com/shre2201>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=your-github-username&theme=react-dark&hide_border=true&bg_color=00000000&color=67e8f9&line=fb7185&point=f8e16c" width="100%" alt="GitHub activity graph" />
+<a href="https://github.com/shre2201">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shre2201&theme=react-dark&hide_border=true&bg_color=00000000&color=c7d2fe&line=9db4ff&point=f0b7c8" width="100%" alt="GitHub activity graph" />
 </a>
 
 </div>
@@ -87,6 +87,6 @@ home for projects, experiments, notes, and the things I am learning.
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=0891b2)
+![Profile Views](https://komarev.com/ghpvc/?username=shre2201&style=flat-square&color=9db4ff)
 
 </div>

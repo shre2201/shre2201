@@ -1,0 +1,49 @@
+name: Update profile visuals
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily at midnight UTC
+  workflow_dispatch: # manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pillow
+
+      - name: Generate ASCII avatar
+        run: python scripts/generate_ascii_avatar.py
+
+      - name: Generate git tree
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_git_tree.py
+
+      - name: Generate commit constellation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_commit_constellation.py
+
+      - name: Generate skill sheet
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_skill_sheet.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/ascii-avatar.svg assets/git-tree.svg assets/commit-constellation.svg assets/skill-sheet.svg
+          git diff --staged --quiet || git commit -m "chore: refresh profile visuals"
+          git push

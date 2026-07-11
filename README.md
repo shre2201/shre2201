@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/ascii-avatar.svg" alt="ASCII portrait of Shreshtha" width="320"/>
+<img src="assets/contribution-graph.svg" alt="My GitHub contribution graph" width="100%"/>
 
 </div>
 
 ### Shreshtha Agarwal
 
-AI/ML Enthusiast · Student
+Data Scientist · AI/ML Enthusiast
 
 [Portfolio](https://your-portfolio-link.com) · [LinkedIn](https://linkedin.com/in/shreshthaagarwal) · [Email](mailto:agarwalshreshtha223@gmail.com)
 
@@ -26,37 +26,25 @@ home for projects, experiments, notes, and the things I am learning.
 
 ---
 
-<h3><code>// grown from git history</code></h3>
+<h3><code>// live query</code></h3>
 
-<p align="center">A tree grown from real activity: repos are branches (colored by dominant language), this year's contributions are leaves, account age sets the trunk.</p>
+<p align="center">Not a mockup — this actually queries my GitHub stats every day.</p>
 
 <div align="center">
 
-<img src="assets/git-tree.svg" alt="A tree generated from GitHub repo and contribution data" width="100%"/>
+<img src="assets/jupyter-cell.svg" alt="An animated Jupyter cell typing out and running a query against real GitHub stats" width="100%"/>
 
 </div>
 
 ---
 
-<h3><code>// commit constellation</code></h3>
+<h3><code>// repo analytics</code></h3>
 
-<p align="center">Recent pushes plotted as stars — hour of day sets position, day of week sets the band, commit count sets brightness.</p>
-
-<div align="center">
-
-<img src="assets/commit-constellation.svg" alt="A night sky generated from recent commit timestamps" width="100%"/>
-
-</div>
-
----
-
-<h3><code>// character sheet</code></h3>
-
-<p align="center">XP bars from real language bytes across my repos; quests are those repos, marked shipped or in progress by how recently they were pushed to.</p>
+<p align="center">Four real numbers, not decoration: language mix by bytes written, monthly contribution trend, repo size, and which days I actually push code.</p>
 
 <div align="center">
 
-<img src="assets/skill-sheet.svg" alt="An RPG-style character sheet generated from GitHub language and repo data" width="600"/>
+<img src="assets/repo-analytics.svg" alt="Four charts: language distribution, monthly contributions, repo size, and weekday push activity" width="100%"/>
 
 </div>
 

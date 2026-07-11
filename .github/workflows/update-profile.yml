@@ -20,30 +20,27 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pillow
+        run: pip install matplotlib numpy
 
-      - name: Generate ASCII avatar
-        run: python scripts/generate_ascii_avatar.py
-
-      - name: Generate git tree
+      - name: Generate contribution graph
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_git_tree.py
+        run: python scripts/generate_contribution_graph.py
 
-      - name: Generate commit constellation
+      - name: Generate jupyter cell
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_commit_constellation.py
+        run: python scripts/generate_jupyter_cell.py
 
-      - name: Generate skill sheet
+      - name: Generate repo analytics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_skill_sheet.py
+        run: python scripts/generate_repo_analytics.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/ascii-avatar.svg assets/git-tree.svg assets/commit-constellation.svg assets/skill-sheet.svg
+          git add assets/contribution-graph.svg assets/jupyter-cell.svg assets/repo-analytics.svg
           git diff --staged --quiet || git commit -m "chore: refresh profile visuals"
           git push

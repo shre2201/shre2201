@@ -8,7 +8,7 @@
 
 Data Scientist · AI/ML Enthusiast
 
-[Portfolio](https://your-portfolio-link.com) · [LinkedIn](https://linkedin.com/in/shreshthaagarwal) · [Email](mailto:agarwalshreshtha223@gmail.com)
+[Portfolio](https://portfolio.agarwalshreshtha223.workers.dev/) · [LinkedIn](https://linkedin.com/in/shreshthaagarwal) · [Email](mailto:agarwalshreshtha223@gmail.com)
 
 ---
 

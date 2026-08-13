@@ -13,5 +13,5 @@
   <text x="28" y="90" fill="#f87171" opacity="0">Out[1]:<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.36;0.39;0.95;1" dur="9s" repeatCount="indefinite"/></text>
   <text x="46" y="112" fill="#7dd3fc" opacity="0">repos           = 8<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.41;0.45;0.95;1" dur="9s" repeatCount="indefinite"/></text>
   <text x="46" y="132" fill="#7dd3fc" opacity="0">top_language    = "Python"<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.49;0.53;0.95;1" dur="9s" repeatCount="indefinite"/></text>
-  <text x="46" y="152" fill="#7dd3fc" opacity="0">contributions   = 58  # this year<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57;0.61;0.95;1" dur="9s" repeatCount="indefinite"/></text>
+  <text x="46" y="152" fill="#7dd3fc" opacity="0">contributions   = 59  # this year<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57;0.61;0.95;1" dur="9s" repeatCount="indefinite"/></text>
 </svg>
